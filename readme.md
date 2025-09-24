@@ -50,4 +50,29 @@ This project showcases the integration of **data preprocessing, ML-driven recomm
 cd backend
 pip install -r requirements.txt
 python app.py
+```
 
+### 2. Frontend Setup
+```bash
+cd frontend
+npm install
+npm start
+```
+
+### 3. Usage
+
+- Enter calorie/nutrient constraints or dietary preferences in the UI.
+
+- The system filters recipes and provides top recommended recipes.
+
+- Click a recipe card to view ingredients, preparation time, and nutritional breakdown.
+
+---
+
+## 📊 Example Outputs
+
+- Recommended recipes tailored to calorie constraints (e.g., under 400 kcal).
+
+- Nutrient-based filtering (low fat, high protein, low sugar).
+
+- Personalized diet-specific lists (e.g., vegetarian, diabetic-friendly).
